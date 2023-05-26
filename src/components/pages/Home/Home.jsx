@@ -51,15 +51,13 @@ const Home = () => {
         {/* chef section */}
 
         <div className="my-container">
-          <h1 className="lg:text-7xl text-3xl mt-20 mb-3 font-mono uppercase text-center text-slate-800">
-            <em className="font-italic">Amazing Team</em>
+          <h1 className="lg:text-3xl text-3xl mt-1 mb-2  text-center text-slate-800">
+            <em className="">Our Best Chefs</em>
           </h1>
-          <p className=" text-slate-800 font-mono text-center lg:text-2xl md:text-lg text-base dark:text-gray-400">
-            <em className="font-italic">
+          <p className=" text-slate-800  text-center lg:text-2xl md:text-lg text-base dark:text-gray-400">
+            <em className="">
               {" "}
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-              rerum minima laborum omnis nulla, temporibus cupiditate earum
-              aspernatur!
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam molestiae delectus consectetur recusandae saepe accusantium error animi nisi accusamus eos!
             </em>
           </p>
         </div>

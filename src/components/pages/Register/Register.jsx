@@ -143,8 +143,8 @@ const Register = () => {
               id="password"
               name="password"
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-orange-300 focus:border-orange-300 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-orange-300 dark:focus:border-orange-300"
+              placeholder=" Password"
               required
-              placeholder="Password"
             />
           </div>
           <div className="flex items-start mb-6">
@@ -171,7 +171,7 @@ const Register = () => {
             Register
           </button>
         </form>
-        <div className="mb-4">
+        <div className="mb-9">
           <p className="text-center text-gray-700 mt-2">
             Already Have An Account ?{" "}
             <Link to="/login" className="text-red-700 hover:underline">

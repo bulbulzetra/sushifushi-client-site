@@ -70,9 +70,9 @@ const Login = () => {
   }, []);
 
   return (
-    <div className="my-20">
+    <div className="my-3">
       <h3 className=" text-2xl text-slate-900 text-center font-bold border-b pb-5 mb-5">
-        Login your account
+        Login to Your Account !!!
       </h3>
       <div className="my-container md:w-4/6 lg:w-3/6 ">
         <form onSubmit={handleLogin} className="bg-orange-100 p-12 rounded-lg">

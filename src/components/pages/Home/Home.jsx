@@ -51,8 +51,8 @@ const Home = () => {
         {/* chef section */}
 
         <div className="my-container">
-          <h1 className="lg:text-3xl text-3xl mt-1 mb-2  text-center text-slate-800">
-            <em className="">Our Best Chefs</em>
+          <h1 className="lg:text-3xl text-2xl mt-1 mb-2  text-center text-slate-800">
+            <em className="font-medium">Our Best Chefs</em>
           </h1>
           <p className=" text-slate-800  text-center lg:text-2xl md:text-lg text-base dark:text-gray-400">
             <em className="">
@@ -62,7 +62,7 @@ const Home = () => {
           </p>
         </div>
         <h1 className="sub-header">
-          Our Chefs
+          Our Best Chefs
         </h1>
 
         {/* All chefs */}

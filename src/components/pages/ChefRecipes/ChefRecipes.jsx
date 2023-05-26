@@ -29,7 +29,7 @@ const ChefRecipes = () => {
 
       {/* about chef */}
       <>
-        <h1 className="mb-4 drop-shadow-lg mt-5 text-center text-3xl font-extrabold leading-none tracking-tight text-gray-900 font-mono md:text-5xl lg:text-6xl dark:text-white">
+        <h1 className="mb-2 drop-shadow-lg mt-5 text-center text-3xl font-extrabold leading-none tracking-tight text-red-900 font-mono md:text-5xl lg:text-6xl dark:text-white">
           Meet{" "}
           <span className="text-orange-400 dark:text-blue-500">Our Chef</span>
         </h1>

@@ -14,12 +14,12 @@ const OrderRecipes = () => {
   }, []);
 
   return (
-    <div className=" mt-20">
-      <h1 className="lg:text-7xl text-3xl font-mono uppercase text-center text-slate-800">
-        <em className="font-italic">OUR MENU</em>
+    <div className=" mt-5">
+      <h1 className="lg:text-5xl text-3xl font-mono uppercase text-center text-slate-800">
+        Our Menu
       </h1>
       <p className=" text-slate-800 font-mono text-center lg:text-2xl md:text-lg text-base dark:text-gray-400">
-        <em className="font-italic">Seoul Kitchenista's tasty offer</em>
+        SushiFushi's tasty offer
       </p>
 
       {/* food Items */}
@@ -27,7 +27,7 @@ const OrderRecipes = () => {
         <h1 className="sub-header">
           Hot Recipes
         </h1>
-        <div className="my-container grid lg:grid-cols-3 md:grid-cols-2 justify-center gap-10">
+        <div className="my-container grid lg:grid-cols-3 md:grid-cols-2 justify-center gap-2">
           {foodItems.map((foodItem) => (
             <FoodItem key={foodItem.id} foodItem={foodItem} />
           ))}

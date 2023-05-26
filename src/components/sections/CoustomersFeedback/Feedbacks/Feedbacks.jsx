@@ -40,24 +40,19 @@ const Feedbacks = () => {
 
   return (
     <>
-      <div className="my-container">
-        <h1 className="lg:text-7xl text-3xl mt-20 mb-3 font-mono uppercase text-center text-slate-800">
-          <em className="font-italic">What Our Clients Say</em>
+      <div className="">
+        <h1 className="lg:text-5xl text-3xl mt-4 mb-3 font-mono uppercase text-center text-slate-800">
+          What Our Clients Say
         </h1>
         <p className=" text-slate-800 font-mono text-center lg:text-2xl md:text-lg text-base dark:text-gray-400">
-          <em className="font-italic">
-            {" "}
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-            rerum minima laborum omnis nulla, temporibus cupiditate earum
-            aspernatur!
-          </em>
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti explicabo numquam vero assumenda, nulla neque quisquam quasi nam recusandae labore.
         </p>
       </div>
-      <h1 className="sub-header">
+      <h1 className="sub-header rounded">
         Customer Feedback
       </h1>
       <div
-        className="mb-20 my-container"
+        className="mb-7 my-container"
         onMouseEnter={handleSwiperHover}
         onMouseLeave={handleSwiperLeave}
       >

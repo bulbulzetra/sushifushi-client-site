@@ -29,8 +29,8 @@ const Navbar = () => {
         {/* Logo Section */}
         <Link to="/" className="inline-flex items-center">
           <img
-            className="lg:h-14 lg:w-14 md:h-10 md:w-10 h-7 w-7"
-            src="https://i.postimg.cc/MpC00ZfX/chef.png"
+            className="lg:h-14 lg:w-14 md:h-10 md:w-10 h-7 w-7 rounded-full"
+            src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Company Logo"
           />
           <span className="ml-2 text-slate-900 lg:text-3xl md:text-2xl text-xl font-bold tracking-wide ">

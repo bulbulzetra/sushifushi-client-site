@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC9Gay67QHhEs7pdevDovP4GCdfn1Z_1l0",
-  authDomain: "seoul-kitchenista-85122.firebaseapp.com",
-  projectId: "seoul-kitchenista-85122",
-  storageBucket: "seoul-kitchenista-85122.appspot.com",
-  messagingSenderId: "479755071353",
-  appId: "1:479755071353:web:db84dab31aafbba35e09a8"
+  apiKey: "AIzaSyCEOAoHRqkR5mPWToOa_ME4XotEi_BULYI",
+  authDomain: "sushi-fushi.firebaseapp.com",
+  projectId: "sushi-fushi",
+  storageBucket: "sushi-fushi.appspot.com",
+  messagingSenderId: "565730687384",
+  appId: "1:565730687384:web:3efddd1cf66c179e9a93ed"
 };
 
 // Initialize Firebase
